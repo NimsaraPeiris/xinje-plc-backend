@@ -3,4 +3,8 @@ uvicorn
 langchain
 langchain-core
 langchain_groq
+langchain_chroma
+langchain_huggingface
+sentence-transformers
 dotenv
+langchain_google_genai

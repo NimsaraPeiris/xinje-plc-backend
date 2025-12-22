@@ -1,0 +1,192 @@
+[
+  {
+    "mnemonic": "LD",
+    "function": "Initial logical operation contact type NO (normally open)",
+    "category": "Basic Logic"
+  },
+  {
+    "mnemonic": "LDD",
+    "function": "Read the status from the contact directly",
+    "category": "Basic Logic"
+  },
+  {
+    "mnemonic": "LDI",
+    "function": "Initial logical operation contact type NC (normally closed)",
+    "category": "Basic Logic"
+  },
+  {
+    "mnemonic": "LDDI",
+    "function": "Read the normally closed contact directly",
+    "category": "Basic Logic"
+  },
+  {
+    "mnemonic": "LDP",
+    "function": "Initial logical operation-Rising edge pulse",
+    "category": "Pulse Logic"
+  },
+  {
+    "mnemonic": "LDF",
+    "function": "Initial logical operation-Falling / trailing edge pulse",
+    "category": "Pulse Logic"
+  },
+  {
+    "mnemonic": "AND",
+    "function": "Serial connection of NO (normally open) contacts",
+    "category": "Series Logic"
+  },
+  {
+    "mnemonic": "ANDD",
+    "function": "Read the status from the contact directly",
+    "category": "Series Logic"
+  },
+  {
+    "mnemonic": "ANI",
+    "function": "Serial connection of NC (normally closed) contacts",
+    "category": "Series Logic"
+  },
+  {
+    "mnemonic": "ANDDI",
+    "function": "Read the normally closed contact directly",
+    "category": "Series Logic"
+  },
+  {
+    "mnemonic": "ANDP",
+    "function": "Serial connection of rising edge pulse",
+    "category": "Pulse Logic"
+  },
+  {
+    "mnemonic": "ANDF",
+    "function": "Serial connection of falling/trailing edge pulse",
+    "category": "Pulse Logic"
+  },
+  {
+    "mnemonic": "OR",
+    "function": "Parallel connection of NO (normally open) contacts",
+    "category": "Parallel Logic"
+  },
+  {
+    "mnemonic": "ORD",
+    "function": "Read the status from the contact directly",
+    "category": "Parallel Logic"
+  },
+  {
+    "mnemonic": "ORI",
+    "function": "Parallel connection of NC (normally closed) contacts",
+    "category": "Parallel Logic"
+  },
+  {
+    "mnemonic": "ORDI",
+    "function": "Read the normally closed contact directly",
+    "category": "Parallel Logic"
+  },
+  {
+    "mnemonic": "ORP",
+    "function": "Parallel connection of rising edge pulse",
+    "category": "Pulse Logic"
+  },
+  {
+    "mnemonic": "ORF",
+    "function": "Parallel connection of falling/trailing edge pulse",
+    "category": "Pulse Logic"
+  },
+  {
+    "mnemonic": "ANB",
+    "function": "Serial connection of multiply parallel circuits",
+    "category": "Block Logic"
+  },
+  {
+    "mnemonic": "ORB",
+    "function": "Parallel connection of multiply parallel circuits",
+    "category": "Block Logic"
+  },
+  {
+    "mnemonic": "OUT",
+    "function": "Final logic operation type coil drive",
+    "category": "Output"
+  },
+  {
+    "mnemonic": "OUTD",
+    "function": "Output to the contact directly",
+    "category": "Output"
+  },
+  {
+    "mnemonic": "SET",
+    "function": "Set a bit device permanently ON",
+    "category": "Bit Control"
+  },
+  {
+    "mnemonic": "RST",
+    "function": "Reset a bit device permanently OFF",
+    "category": "Bit Control"
+  },
+  {
+    "mnemonic": "CNT",
+    "function": "16-bit non-power-off retentive incremental count",
+    "category": "Counter"
+  },
+  {
+    "mnemonic": "CNT_D",
+    "function": "16-bit power-off retentive decremented count",
+    "category": "Counter"
+  },
+  {
+    "mnemonic": "DCNT",
+    "function": "32-bit non-power-off retentive incremental count",
+    "category": "Counter"
+  },
+  {
+    "mnemonic": "DCNT_D",
+    "function": "32-bit power-off retentive decremented count",
+    "category": "Counter"
+  },
+  {
+    "mnemonic": "PLS",
+    "function": "Turn on a scan cycle when rising edge",
+    "category": "Pulse Control"
+  },
+  {
+    "mnemonic": "PLF",
+    "function": "Turn on a scan cycle when falling edge",
+    "category": "Pulse Control"
+  },
+  {
+    "mnemonic": "MCS",
+    "function": "Connect the public serial contacts",
+    "category": "Master Control"
+  },
+  {
+    "mnemonic": "MCR",
+    "function": "Clear the public serial contacts",
+    "category": "Master Control"
+  },
+  {
+    "mnemonic": "ALT",
+    "function": "The status of the assigned device is inverted on every operation of the instruction",
+    "category": "Toggle Logic"
+  },
+  {
+    "mnemonic": "TMR",
+    "function": "Non-power-off holding timer",
+    "category": "Timer"
+  },
+  {
+    "mnemonic": "TMR_A",
+    "function": "Power-off holding timer",
+    "category": "Timer"
+  },
+  {
+    "mnemonic": "END",
+    "function": "Force the current program scan to end",
+    "category": "Program Control"
+  },
+  {
+    "mnemonic": "GROUP",
+    "function": "Group",
+    "category": "Organization"
+  },
+  {
+    "mnemonic": "GROUPE",
+    "function": "Group End",
+    "category": "Organization"
+  }
+]
