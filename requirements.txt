@@ -8,3 +8,4 @@ langchain_huggingface
 sentence-transformers
 dotenv
 langchain_google_genai
+python-multipart

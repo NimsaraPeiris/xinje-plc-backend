@@ -1,9 +1,11 @@
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnableParallel, RunnablePassthrough
+from langchain_core.runnables import RunnableParallel
 from app.services.llms import get_llm
 from app.services.prompts import get_plc_prompt
 from app.services.vector_store import get_vector_store
 from operator import itemgetter
+
+
 
 def create_plc_chain():
     llm = get_llm()
